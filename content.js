@@ -14,4 +14,4 @@ function checkForAds() {
   }
 }
 
-setInterval(checkForAds, 1000);
+setInterval(checkForAds, 3000);
