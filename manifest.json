@@ -1,12 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "YouTube Ad Skipper",
-  "version": "1.0",
+  "name": "Enhanced extension UT_Sk",
+  "version": "1.1",
+  "description": "UT_Sk",
   "permissions": ["activeTab", "scripting"],
   "content_scripts": [
-    {
-      "matches": ["*://*.youtube.com/*"],
-      "js": ["content.js"]
-    }
+      {
+          "matches": ["*://*.youtube.com/*"],
+          "js": ["content.js"],
+          "run_at": "document_idle"
+      }
   ]
 }
