@@ -1,5 +1,5 @@
 function checkForAds() {
-  console.log("YouTube extension 'UT_Sk' is running");
+  console.log("Chrome extension 'UT_Sk' is running");
 
   const adContainer = document.querySelector(".ad-showing");
   const video = document.querySelector("video");
